@@ -6,6 +6,7 @@ html, body
 {
     padding:0px;
     margin:0px;
+    overflow:hidden;
 }
 
 .center
@@ -45,27 +46,34 @@ html, body
     width:90%;
     max-width:800px;
     position: relative;
+    top:20px;
     margin:0 auto;
 }
 
 .trueBtn
 {
     width:50%;
-    height:40px;
-    background-color:purple;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#55E6C1;
     position: relative;
     left:0px;
     max-width:400px;
+    color:white;
     float:left;
     display: block;
     text-align:center;
+    cursor: pointer;
 }
 
 .falseBtn
 {
     width:50%;
-    height:40px;
-    background-color:purple;
+    padding-top:10px;
+    padding-bottom:10px;
+    cursor: pointer;
+    background-color:#FD7272;
+    color:white;
     position: relative;
     left:0px;
     max-width:400px;
@@ -79,9 +87,33 @@ html, body
     width:90%;
     position: relative;
     margin:0 auto;
-    background-color:red;
     max-width:800px;
     font-size:2em;
     color:white;
     text-align:center;
 }
+
+#correctOverlay
+{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0px;
+    background-color:green;
+    display: none;
+}
+
+#incorrectOverlay
+{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0px;
+    background-color:red;
+    display: none;
+}
+
+
+
+
+
