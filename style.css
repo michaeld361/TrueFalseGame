@@ -21,7 +21,6 @@ html, body
     width:100%;
     height:100%;
     position: absolute;
-    background-color:red;
     top:0px;
 }
 
@@ -29,6 +28,60 @@ html, body
 {
     width:100%;
     height:100%;
-    background-color: blue;
+    background-color: #546de5;
     position: absolute;
+}
+
+.questionContainer
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    position: absolute;
+}
+
+.responseContainer
+{
+    width:90%;
+    max-width:800px;
+    position: relative;
+    margin:0 auto;
+}
+
+.trueBtn
+{
+    width:50%;
+    height:40px;
+    background-color:purple;
+    position: relative;
+    left:0px;
+    max-width:400px;
+    float:left;
+    display: block;
+    text-align:center;
+}
+
+.falseBtn
+{
+    width:50%;
+    height:40px;
+    background-color:purple;
+    position: relative;
+    left:0px;
+    max-width:400px;
+    float:left;
+    display: block;
+    text-align:center;
+}
+
+.question
+{
+    width:90%;
+    position: relative;
+    margin:0 auto;
+    background-color:red;
+    max-width:800px;
+    font-size:2em;
+    color:white;
+    text-align:center;
 }
